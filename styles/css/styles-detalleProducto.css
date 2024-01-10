@@ -61,14 +61,21 @@ header {
 }
 
 .ParrafoHeroTxt {
-    background: linear-gradient(to right, #333, #212529, #000, #333);
-    background-size: 200% auto;
-    background-clip: text;
-    color: transparent;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: movingGradient 3s linear infinite;
+    color: black;
     display: inline-block;
+}
+
+.imagenMaquinaria {
+    width: auto;
+    max-height: 250px;
+}
+
+.card-body {
+    background-color: #F0F0F0;
+}
+
+.card .h-100 {
+    background-color: #F0F0F0;
 }
 
 /* Animaciones */
