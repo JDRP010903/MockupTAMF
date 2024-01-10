@@ -1,0 +1,88 @@
+/* Variables de colores */
+:root {
+    --color1: #1e5a84;
+    --color2: #dce6ea;
+    --color3: #76a8cb;
+    --color4: #626261;
+    --color5: #727474;
+    --color6: #212529;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #343a40;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header {
+    background-color: #212529;
+    padding: 10px;
+}
+
+.navbar-custom {
+    background-color: #212529 !important;
+}
+
+.aLogoImg {
+    color: white;
+    text-decoration: none;
+}
+
+.logoImg {
+    max-height: 120px;
+    animation: pulseFade 3s infinite;
+}
+
+.Titletxt {
+    font-size: 3vh;
+}
+
+.div-izquierda {
+    animation: entrarDesdeLaIzquierda 1s ease-out forwards;
+}
+
+.div-derecha {
+    animation: entrarDesdeLaDerecha 1s ease-out forwards;
+}
+
+.titleSobreNosotros {
+    font-size: 2vh;
+    margin-bottom: 15px;
+}
+
+/* Animaciones */
+@keyframes entrarDesdeLaIzquierda {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes entrarDesdeLaDerecha {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes pulseFade {
+    0%, 100% {
+        transform: scale(1);
+        opacity: 0.5;
+    }
+    50% {
+        transform: scale(1.02);
+        opacity: 1;
+    }
+}
+
+
