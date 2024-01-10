@@ -39,17 +39,29 @@ header {
 }
 
 .containerTitleTxt {
+    padding: 20px;
     background-image: url(../../assets/images/FondoDetalleProducto.png);
     background-size: cover;
     background-position: center;
-    display: flex;
+    display: flex;flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 20vh; /* o la altura que desees para tu sección */
+    height: 13vh; /* o la altura que desees para tu sección */
 }
 
 .Titletxt {
-    background: linear-gradient(to right, #333, #000, #333);
+    background: linear-gradient(to right, #333, #212529, #000, #333);
+    background-size: 200% auto;
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: movingGradient 3s linear infinite;
+    display: inline-block;
+}
+
+.ParrafoHeroTxt {
+    background: linear-gradient(to right, #333, #212529, #000, #333);
     background-size: 200% auto;
     background-clip: text;
     color: transparent;
