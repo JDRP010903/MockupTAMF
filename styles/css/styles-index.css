@@ -63,8 +63,6 @@ header {
     background-color: #F0F0F0;
 }
 
-
-
 .list-group-item {
     background-color: #F0F0F0;
     transition: background-color 0.5s ease;
@@ -72,6 +70,24 @@ header {
 
 .list-group-item:hover {
     background-color: #D6D6D6;
+}
+
+footer {
+    font-family:'Times New Roman', Times, serif;
+    background-color: #343a40;
+    color: #F0F0F0;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+box-icon {
+    transition: transform 0.3s ease; /* Animación suave para la transformación */
+}
+
+box-icon:hover {
+    transform: scale(1.2);
 }
 
 /* Animaciones */

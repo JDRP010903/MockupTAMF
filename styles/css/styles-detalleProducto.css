@@ -78,6 +78,24 @@ header {
     background-color: #F0F0F0;
 }
 
+footer {
+    font-family:'Times New Roman', Times, serif;
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+box-icon {
+    transition: transform 0.3s ease; /* Animación suave para la transformación */
+}
+
+box-icon:hover {
+    transform: scale(1.2);
+}
+
 /* Animaciones */
 @keyframes pulseFade {
     0%, 100% {
