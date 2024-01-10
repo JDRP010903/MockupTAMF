@@ -1,0 +1,78 @@
+/* Variables de colores */
+:root {
+    --color1: #1e5a84;
+    --color2: #dce6ea;
+    --color3: #76a8cb;
+    --color4: #626261;
+    --color5: #727474;
+    --color6: #212529;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #343a40;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header {
+    background-color: #212529;
+    padding: 10px;
+}
+
+.container {
+    color: #F0F0F0;
+}
+
+.navbar-custom {
+    background-color: #212529 !important;
+}
+
+.aLogoImg {
+    color: white;
+    text-decoration: none;
+}
+
+.logoImg {
+    max-height: 120px;
+    animation: pulseFade 3s infinite;
+}
+
+.containerTitleTxt {
+    background-image: url(../../assets/images/FondoDetalleProducto.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh; /* o la altura que desees para tu sección */
+}
+
+.Titletxt {
+    background: linear-gradient(to right, #333, #000, #333);
+    background-size: 200% auto;
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: movingGradient 3s linear infinite;
+    display: inline-block;
+}
+
+/* Animaciones */
+@keyframes pulseFade {
+    0%, 100% {
+        transform: scale(1);
+        opacity: 0.5;
+    }
+    50% {
+        transform: scale(1.02);
+        opacity: 1;
+    }
+}
+
+@keyframes movingGradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
