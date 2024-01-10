@@ -20,6 +20,10 @@ header {
     padding: 10px;
 }
 
+.container {
+    color: #F0F0F0;
+}
+
 .navbar-custom {
     background-color: #212529 !important;
 }
@@ -36,6 +40,10 @@ header {
 
 .Titletxt {
     font-size: 3vh;
+    line-height: 1.2;
+    letter-spacing: 0.1em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: 700;
 }
 
 .div-izquierda {
@@ -49,6 +57,19 @@ header {
 .titleSobreNosotros {
     font-size: 2vh;
     margin-bottom: 15px;
+}
+
+.card-body {
+    background-color: #F0F0F0;
+}
+
+.list-group-item {
+    background-color: #F0F0F0;
+    transition: background-color 0.5s ease;
+}
+
+.list-group-item:hover {
+    background-color: #D6D6D6;
 }
 
 /* Animaciones */
