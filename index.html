@@ -29,7 +29,7 @@
                                     <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#SeccionNuestrosServicios">Servicios</a>
+                                    <a class="nav-link" href="./pages/servicios.html">Servicios</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="./pages/galeria.html">Galería</a>
@@ -99,121 +99,47 @@
             </div>
         </section>
         <br>
-        <section class="row text-center">
-            <h5 class="titleSobreNosotros">Sobre Nosotros</h5>
-            <div class="col">
-                <div id="carouselExampleFade" class="carousel slide carousel-fade">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="d-flex justify-content-center align-items-center">
-                                <div class="card bg-custom" style="width: 18rem;">
-                                    <img src="./assets/images/quienesSomos.png" class="card-img-top" alt="Quienes Somos">
-                                    <div class="card-body">
-                                        <h5 class="card-title">¿Quiénes Somos?</h5>
-                                        <p class="card-text">Somos una empresa dedicada a la producción de partes torneadas, con un arraigo en la tradición y la excelencia que se remonta a nuestra fundación en 1993. Establecidos en Tlalnepantla de Baz, Estado de México, hemos crecido para ser un referente en la manufactura de precisión, brindando nuestros servicios a clientes destacados como BR y Química Herbal.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="d-flex justify-content-center align-items-center">
-                                <div class="card bg-custom" style="width: 18rem;">
-                                    <img src="./assets/images/cropped_pictogram.png" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Misión</h5>
-                                        <p class="card-text">Nuestra misión es satisfacer las necesidades de nuestros clientes proporcionándoles servicios de la más alta calidad. Nos apoyamos en la tecnología más avanzada para garantizar productos sin defectos, adaptándonos a las demandas específicas de cada proyecto, ya sea en lotes únicos o series candelarizadas. En TORNEADO AUTOMATICO MANUEL FRANCO, cada pieza refleja nuestro compromiso con la excelencia, la eficiencia y la puntualidad.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="d-flex justify-content-center align-items-center">
-                                <div class="card bg-custom" style="width: 18rem;">
-                                    <img src="./assets/images/VisionImg.png" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Visión</h5>
-                                        <p class="card-text">Ser reconocidos a nivel global como pioneros en la manufactura de precisión, ampliando las fronteras de la ingeniería con innovaciones que definan el estándar de la industria. Aspiramos a convertirnos en el socio estratégico esencial para las industrias más exigentes, donde la calidad, la precisión y la fiabilidad no son solo promesas, sino la base de cada parte torneada que entregamos. En cada avance, cada mejora y cada solución, TORNEADO AUTOMATICO MANUEL FRANCO se compromete a ser sinónimo de la evolución y el futuro de la manufactura de precisión.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                    </button>
+        <section class="container mt-5 sectionSobreNosotros">
+            <h2 class="text-center mb-4 titleSobreNosotros">Sobre Nosotros</h2>
+            
+            <!-- Fila 1: Imagen a la izquierda, texto a la derecha -->
+            <div class="row align-items-center my-5">
+                <div class="col-lg-6 mb-3 mb-lg-0 d-flex justify-content-center">
+                    <img src="./assets/images/quienesSomos.png" class="img-fluid" alt="Quiénes Somos">
+                </div>
+                <div class="col-lg-6">
+                    <h4>¿Quiénes Somos?</h4>
+                    <p>Somos una empresa dedicada a la producción de partes torneadas, con un arraigo en la tradición y la excelencia que se remonta a nuestra fundación en 1993. Establecidos en Tlalnepantla de Baz, Estado de México, hemos crecido para ser un referente en la manufactura de precisión.</p>
+                </div>
+            </div>
+            
+            <!-- Fila 2: Imagen a la derecha, texto a la izquierda -->
+            <div class="row align-items-center my-5 flex-lg-row-reverse">
+                <div class="col-lg-6 mb-3 mb-lg-0 d-flex justify-content-center">
+                    <img src="./assets/images/cropped_pictogram.png" class="img-fluid" alt="Misión">
+                </div>
+                <div class="col-lg-6">
+                    <h4>Misión</h4>
+                    <p>Nuestra misión es satisfacer las necesidades de nuestros clientes proporcionándoles servicios de la más alta calidad. Nos apoyamos en la tecnología más avanzada para garantizar productos sin defectos.</p>
+                </div>
+            </div>
+            
+            <!-- Fila 3: Imagen a la izquierda, texto a la derecha -->
+            <div class="row align-items-center my-5">
+                <div class="col-lg-6 mb-3 mb-lg-0 d-flex justify-content-center">
+                    <img src="./assets/images/VisionImg.png" class="img-fluid" alt="Visión">
+                </div>
+                <div class="col-lg-6">
+                    <h4>Visión</h4>
+                    <p>Ser reconocidos a nivel global como pioneros en la manufactura de precisión, ampliando las fronteras de la ingeniería con innovaciones que definan el estándar de la industria.</p>
                 </div>
             </div>
         </section>
+        
         <br>
-        <section class="row sectionServicios" id="SeccionNuestrosServicios">
-            <h5 class="text-center titleSobreNosotros">Nuestros Servicios</h5>
-            <div class="col-12 col-md-4">
-                <div class="card text-bg-light mb-3 mx-auto" style="max-width: 18rem;">
-                    <div class="card-body">
-                        <ul class="list-group">
-                            <a href="#multiCollapseExample1" class="list-group-item list-group-item-action list-group-item" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Servicio 1</a>
-                            <div class="collapse multi-collapse" id="multiCollapseExample1">
-                                <div class="card card-body text-secondary">
-                                    <p>Pequeña descripción sobre el servicio que se realiza</p>
-                                </div>
-                            </div>
-                            <a href="#multiCollapseExample2" class="list-group-item list-group-item-action list-group-item" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Servicio 2</a>
-                            <div class="collapse multi-collapse" id="multiCollapseExample2">
-                                <div class="card card-body text-secondary">
-                                    <p>Pequeña descripción sobre el servicio que se realiza</p>
-                                </div>
-                            </div>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-4">
-                <div class="card text-bg-light mb-3 mx-auto" style="max-width: 18rem;">
-                    <div class="card-body">
-                        <ul class="list-group">
-                            <a href="#multiCollapseExample3" class="list-group-item list-group-item-action list-group-item" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Servicio 3</a>
-                            <div class="collapse multi-collapse" id="multiCollapseExample3">
-                                <div class="card card-body text-secondary">
-                                    <p>Pequeña descripción sobre el servicio que se realiza</p>
-                                </div>
-                            </div>
-                            <a href="#multiCollapseExample4" class="list-group-item list-group-item-action list-group-item" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Servicio 4</a>
-                            <div class="collapse multi-collapse" id="multiCollapseExample4">
-                                <div class="card card-body text-secondary">
-                                    <p>Pequeña descripción sobre el servicio que se realiza</p>
-                                </div>
-                            </div>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-4">
-                <div class="card text-bg-light mb-3 mx-auto" style="max-width: 18rem;">
-                    <div class="card-body">
-                        <ul class="list-group">
-                            <a href="#multiCollapseExample5" class="list-group-item list-group-item-action list-group-item" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Servicio 5</a>
-                            <div class="collapse multi-collapse" id="multiCollapseExample5">
-                                <div class="card card-body text-secondary">
-                                    <p>Pequeña descripción sobre el servicio que se realiza</p>
-                                </div>
-                            </div>
-                            <a href="#multiCollapseExample6" class="list-group-item list-group-item-action list-group-item" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Servicio 6</a>
-                            <div class="collapse multi-collapse" id="multiCollapseExample6">
-                                <div class="card card-body text-secondary">
-                                    <p>Pequeña descripción sobre el servicio que se realiza</p>
-                                </div>
-                            </div>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+        <section class="row sectionUbicacion">
+            <h2 class="text-center titleUbicacion">Ubicación</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d939.8840566662465!2d-99.1715899!3d19.5615147!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f79cff7b6517%3A0x6ac95f1189f28392!2sTorneado%20autom%C3%A1tico%20manuel%20franco!5e0!3m2!1ses!2smx!4v1707268236073!5m2!1ses!2smx" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
     </main>
 

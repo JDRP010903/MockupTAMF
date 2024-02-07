@@ -54,22 +54,17 @@ header {
     animation: entrarDesdeLaDerecha 1s ease-out forwards;
 }
 
+.sectionSobreNosotros img {
+    width: auto;
+    max-height: 250px;
+}
+
 .titleSobreNosotros {
-    font-size: 2vh;
     margin-bottom: 15px;
 }
 
-.card-body {
-    background-color: #F0F0F0;
-}
-
-.list-group-item {
-    background-color: #F0F0F0;
-    transition: background-color 0.5s ease;
-}
-
-.list-group-item:hover {
-    background-color: #D6D6D6;
+.titleUbicacion {
+    margin-bottom: 15px;
 }
 
 footer {

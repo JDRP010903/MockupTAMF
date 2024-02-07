@@ -1,0 +1,126 @@
+/* Variables de colores */
+:root {
+    --color1: #1e5a84;
+    --color2: #dce6ea;
+    --color3: #76a8cb;
+    --color4: #626261;
+    --color5: #727474;
+    --color6: #212529;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #343a40;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header {
+    background-color: #212529;
+    padding: 10px;
+}
+
+.container {
+    color: #F0F0F0;
+}
+
+.navbar-custom {
+    background-color: #212529 !important;
+}
+
+.aLogoImg {
+    color: white;
+    text-decoration: none;
+}
+
+.logoImg {
+    max-height: 120px;
+    animation: pulseFade 3s infinite;
+}
+
+.Titletxt {
+    font-size: 3.5vh;
+    line-height: 1.2;
+    letter-spacing: 0.1em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: 700;
+}
+
+/* Tarjetas de servicios */
+.card {
+    border-color: var(--color1); /* Color del borde de las tarjetas */
+}
+
+.card-title {
+    color: var(--color1); /* Color del título de las tarjetas */
+}
+
+.card-body {
+    background-color: var(--color2);
+}
+
+/* Botones */
+.btn-primary {
+    background-color: var(--color1);
+    border-color: var(--color3);
+}
+
+.btn-primary:hover {
+    background-color: var(--color3);
+    border-color: var(--color1);
+}
+
+
+footer {
+    font-family:'Times New Roman', Times, serif;
+    background-color: #343a40;
+    color: #F0F0F0;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+box-icon {
+    transition: transform 0.3s ease; /* Animación suave para la transformación */
+}
+
+box-icon:hover {
+    transform: scale(1.2);
+}
+
+/* Animaciones */
+@keyframes entrarDesdeLaIzquierda {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes entrarDesdeLaDerecha {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes pulseFade {
+    0%, 100% {
+        transform: scale(1);
+        opacity: 0.5;
+    }
+    50% {
+        transform: scale(1.02);
+        opacity: 1;
+    }
+}
+
+
